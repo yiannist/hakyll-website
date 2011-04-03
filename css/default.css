@@ -36,19 +36,17 @@ h1 {
     font-size: 27px;
     font-weight: normal;
     margin: 0px;
-    paddling-top: 15px;
 }
 
 div.my_meta {
-    width: 500px;
+    width: 440px;
     float: left;
     padding-right: 10px;
 }
 
 img.pretty {
-    margin: 10px;
-    display: inline;
     float: left;
+    padding-right: 10px;
 }
 
 blockquote {

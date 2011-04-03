@@ -1,30 +1,37 @@
-import Control.Monad (mapM_)
+{-# LANGUAGE OverloadedStrings #-}
+import Control.Arrow ((>>>))
+import Control.Monad (forM_)
 
-import Text.Hakyll 
-import Text.Hakyll.File (directory)
-import Text.Hakyll.Render (css, static, renderChain)
-import Text.Hakyll.CreateContext (createPage)
-import Text.Hakyll.HakyllMonad
+import Hakyll
 
-myConfig :: HakyllConfiguration
-myConfig = (defaultHakyllConfiguration "http://foss.ntua.gr/~yiannist")
-    { enableIndexUrl = True
-    }
+-- | Entry point
+--
+main :: IO ()
+main = hakyll $ do
+  -- Compress CSS
+  route "css/*" idRoute
+  compile "css/*" compressCssCompiler
+  
+  -- Copy images
+  route "images/*" idRoute
+  compile "images/*" copyFileCompiler
+  
+  route "favicon.ico" idRoute
+  compile "favicon.ico" copyFileCompiler
+  
+  {-
+  -- Copy Javascript
+  route "js/*" idRoute
+  compile "js/*" copyFileCompiler
+  -}
 
-main = hakyllWithConfiguration myConfig $ do
-    static "favicon.ico"
-    directory css "css"
-    directory static "images"
-    directory static "files"
-
-    
-    -- Render pages
-    mapM_ render [ "index.html"
-                 , "cv.rst"
-                 , "contact.rst" 
-                 , "links.rst"
-                 , "404.html"
-                 ]
-  where
-    render = renderChain ["templates/default.html"]
-           . createPage
+  -- Read templates
+  compile "templates/*" templateCompiler
+  
+  -- Render some static pages
+  forM_ ["index.html", "cv.rst", "contact.rst", "links.rst", "404.html"] $ 
+    \page -> do
+      route page $ setExtension "html"
+      compile page $ pageCompiler
+        >>> applyTemplateCompiler "templates/default.html"
+        >>> relativizeUrlsCompiler
