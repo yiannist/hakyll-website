@@ -19,6 +19,10 @@ main = hakyll $ do
   route "favicon.ico" idRoute
   compile "favicon.ico" copyFileCompiler
   
+  -- Copy files (deep)
+  route   "files/**" idRoute
+  compile "files/**" copyFileCompiler
+  
   {-
   -- Copy Javascript
   route "js/*" idRoute
@@ -29,7 +33,7 @@ main = hakyll $ do
   compile "templates/*" templateCompiler
   
   -- Render some static pages
-  forM_ ["index.html", "cv.rst", "contact.rst", "links.rst", "404.html"] $ 
+  forM_ ["index.markdown", "cv.markdown", "contact.rst", "links.rst", "404.html"] $ 
     \page -> do
       route page $ setExtension "html"
       compile page $ pageCompiler

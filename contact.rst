@@ -6,7 +6,7 @@ The prefered way of contacting me is to mail me at:
    | yiannis.tsiouris -(at)- gmail -(dot)- com
 
 If you need it, grab my `Public PGP Key
-<$root/files/yiannis_t.asc>`_. (Note: my `old key <$root/files/old.asc>`_ has
+</files/yiannis_t.asc>`_. (Note: my `old key </files/old.asc>`_ has
 been revoked!)
 
 You can try to catch me on IRC -- I lurk as ``yiannis_t`` in the
