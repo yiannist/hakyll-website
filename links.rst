@@ -5,7 +5,7 @@ title: Useful Links
 Some useful projects/links:
 
 * `Foss Ntua <http://foss.ntua.gr/>`_
-* `Foss Ntua @ Status.net <http://fossntua.status.net/>`_
+* `Foss Ntua @ Status.net <http://status.foss.ntua.gr/>`_
 * `Free Software Foundation <http://www.fsf.org/>`_
 * `Debian <http://www.debian.org/>`_
 * `Xmonad <http://www.xmonad.org/>`_

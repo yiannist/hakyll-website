@@ -19,7 +19,7 @@ thesis.
 * Secondary School: 4th Lyceum of Larissa (GPA: 19.4/20).
 * National Technical University of Athens: Diploma of Electrical and
   Computer Engineering, specialization in Computer Science (Expected
-  GPA: 8.73/10.00)  (*in progress*).
+  GPA: 8.76/10.00)  (*in progress*).
 
 
 # Projects
