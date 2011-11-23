@@ -1,41 +1,43 @@
 {-# LANGUAGE OverloadedStrings #-}
 import Control.Arrow ((>>>))
-import Control.Monad (forM_)
 
 import Hakyll
 
--- | Entry point
---
 main :: IO ()
 main = hakyll $ do
   -- Compress CSS
-  route "css/*" idRoute
-  compile "css/*" compressCssCompiler
+  match "css/*" $ do
+    route idRoute
+    compile compressCssCompiler
   
   -- Copy images
-  route "images/*" idRoute
-  compile "images/*" copyFileCompiler
+  match "images/*" $ do
+    route idRoute
+    compile copyFileCompiler
   
-  route "favicon.ico" idRoute
-  compile "favicon.ico" copyFileCompiler
+  match "favicon.ico" $ do
+    route idRoute
+    compile copyFileCompiler
   
   -- Copy files (deep)
-  route   "files/**" idRoute
-  compile "files/**" copyFileCompiler
+  match "files/**" $ do
+    route idRoute
+    compile copyFileCompiler
   
   {-
   -- Copy Javascript
-  route "js/*" idRoute
-  compile "js/*" copyFileCompiler
+  match "js/*" $ do
+  route idRoute
+  compile copyFileCompiler
   -}
 
   -- Read templates
-  compile "templates/*" templateCompiler
+  match "templates/*" $ compile templateCompiler
   
   -- Render some static pages
-  forM_ ["index.markdown", "cv.markdown", "contact.rst", "links.rst", "404.html"] $ 
-    \page -> do
-      route page $ setExtension "html"
-      compile page $ pageCompiler
-        >>> applyTemplateCompiler "templates/default.html"
-        >>> relativizeUrlsCompiler
+  match (list ["index.markdown", "cv.markdown", "contact.rst",
+               "links.rst", "404.html"]) $ do
+    route $ setExtension "html"
+    compile $ pageCompiler
+      >>> applyTemplateCompiler "templates/default.html"
+      >>> relativizeUrlsCompiler
