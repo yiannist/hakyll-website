@@ -15,6 +15,7 @@ precisely:
 * concurrent and parallel programming
 * program analysis, type systems, security
 
+You can grab a PDF version of this CV from [here](../files/Yiannis-Tsiouris-CV.pdf).
 
 # Education
 
