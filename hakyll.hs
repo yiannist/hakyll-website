@@ -9,21 +9,21 @@ main = hakyll $ do
   match "css/*" $ do
     route idRoute
     compile compressCssCompiler
-  
+
   -- Copy images
   match "images/*" $ do
     route idRoute
     compile copyFileCompiler
-  
+
   match "favicon.ico" $ do
     route idRoute
     compile copyFileCompiler
-  
+
   -- Copy files (deep)
   match "files/**" $ do
     route idRoute
     compile copyFileCompiler
-  
+ 
   {-
   -- Copy Javascript
   match "js/*" $ do
@@ -33,10 +33,10 @@ main = hakyll $ do
 
   -- Read templates
   match "templates/*" $ compile templateCompiler
-  
+
   -- Render some static pages
-  match (list ["index.markdown", "cv.markdown", "contact.rst",
-               "links.rst", "404.html"]) $ do
+  match (list ["index.markdown", "cv.markdown", "contact.markdown",
+	       "links.markdown", "404.html"]) $ do
     route $ setExtension "html"
     compile $ pageCompiler
       >>> applyTemplateCompiler "templates/default.html"
