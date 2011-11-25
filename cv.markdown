@@ -31,9 +31,9 @@ You can grab a PDF version of this CV from [here](files/Yiannis-Tsiouris-CV.pdf)
 # Publications
 
 * Christos Stavrakakis, Yiannis Tsiouris, "**Design and implementation of a Low
-  Level Virtual Machine for the High Performance Erlang native code compiler**",
-  Diploma thesis, NTUA, 2011. [ [PDF] ](files/erllvm_thesis.pdf) [ [Abstract]
-  ](files/erllvm_abstract.pdf) [ [Bib] ](files/erllvm.bib)
+  Level Virtual Machine back end for the High Performance Erlang native code
+  compiler**", Diploma thesis, NTUA, 2011. [ [PDF] ](files/erllvm_thesis.pdf) [
+  [Abstract] ](files/erllvm_abstract.pdf) [ [Bib] ](files/erllvm.bib)
 
 * Christos Stavrakakis, Yiannis Tsiouris, "**ErLLVM: An LLVM back-end for HiPE,
   the native code compiler of Erlang/OTP. *Design and Implementation* **", Slides,
