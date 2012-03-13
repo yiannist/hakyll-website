@@ -36,7 +36,7 @@ You can grab a PDF version of this CV from [here](files/Yiannis-Tsiouris-CV.pdf)
   [Abstract] ](files/erllvm_abstract.pdf) [ [Bib] ](files/erllvm.bib)
 
 * Christos Stavrakakis, Yiannis Tsiouris, "**ErLLVM: An LLVM back-end for HiPE,
-  the native code compiler of Erlang/OTP. *Design and Implementation* **", Slides,
+  the native code compiler of Erlang/OTP. Design and Implementation**", Slides,
   NTUA, 2011. [ [PDF] ](files/erllvm_pres-20111107.pdf)
 
 
