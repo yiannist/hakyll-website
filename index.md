@@ -2,7 +2,6 @@
 title: Home
 ---
 
-<div class="my_meta">
 <img src="/images/ts.jpg" class="pretty" alt="That's me!" />
 
 # Meta
@@ -16,4 +15,3 @@ It has been a while since I 've been thinking of creating my spot in the web,
 and here it is! I 'd like to thank [Jasper Van der Jeugt](http://jaspervdj.be
 "Jasper") for giving me the 'kick in the butt' by offering
 [Hakyll](http://jaspervdj.be/hakyll "Hakyll") to the world.
-</div>
