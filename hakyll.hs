@@ -23,7 +23,7 @@ main = hakyll $ do
   match "files/**" $ do
     route idRoute
     compile copyFileCompiler
- 
+
   {-
   -- Copy Javascript
   match "js/*" $ do
@@ -35,8 +35,8 @@ main = hakyll $ do
   match "templates/*" $ compile templateCompiler
 
   -- Render some static pages
-  match (list ["index.markdown", "cv.markdown", "contact.markdown",
-	       "links.markdown", "404.html"]) $ do
+  match (list ["index.md", "cv.md", "pubs.md", "contact.md", "links.md"
+              , "404.md"]) $ do
     route $ setExtension "html"
     compile $ pageCompiler
       >>> applyTemplateCompiler "templates/default.html"
