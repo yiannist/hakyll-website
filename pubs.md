@@ -20,7 +20,6 @@ discuss technical challenges and decisions we took. Finally, we provide a
 detailed performance evaluation of ErLLVM compared to BEAM, the existing
 backends of the HiPE compiler, and Erjang.
 
-* * *
 
 # A Scalability Benchmark Suite for Erlang/OTP
 
@@ -50,7 +49,6 @@ and present its infrastructure and current set of benchmarks. We also report
 some limited set of performance results in order to show the capabilities of our
 suite.
 
-* * *
 
 # Design and implementation of a Low Level Virtual Machine back end for the High Performance Erlang native code compiler
 
