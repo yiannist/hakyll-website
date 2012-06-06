@@ -30,14 +30,8 @@ You can grab a PDF version of this CV from [here](files/Yiannis-Tsiouris-CV.pdf)
 
 # Publications
 
-* Christos Stavrakakis, Yiannis Tsiouris, "**Design and implementation of a Low
-  Level Virtual Machine back end for the High Performance Erlang native code
-  compiler**", Diploma thesis, NTUA, 2011. [ [PDF] ](files/erllvm_thesis.pdf) [
-  [Abstract] ](files/erllvm_abstract.pdf) [ [Bib] ](files/erllvm.bib)
-
-* Christos Stavrakakis, Yiannis Tsiouris, "**ErLLVM: An LLVM back-end for HiPE,
-  the native code compiler of Erlang/OTP. Design and Implementation**", Slides,
-  NTUA, 2011. [ [PDF] ](files/erllvm_pres-20111107.pdf)
+For an updated list of papers, talks and other publications please visit the
+relevant [page](pubs.html).
 
 
 # Projects
@@ -45,8 +39,8 @@ You can grab a PDF version of this CV from [here](files/Yiannis-Tsiouris-CV.pdf)
 * **[ErLLVM](http://erllvm.softlab.ntua.gr)**: A project aiming at providing
     multiple back ends for High Performance Erlang
     ([HiPE](http://www.it.uu.se/research/group/hipe/)), the native code compiler
-    of the Erlang/OTP system, with the use of the Low Level Virtual Machine
-    ([LLVM](http://llvm.org/)) infrastructure.
+    of the Erlang/OTP system, with the use of the [LLVM](http://llvm.org/)
+    infrastructure.
 
 * **[RELEASE: A High-level Paradigm for Reliable Large-scale Server
     Software](http://www.release-project.eu/)** is an EU FP7 STREP (287510) that
@@ -101,3 +95,21 @@ below:
   Lesson. [design](files/curse-design.pdf "Design"),
   [source](files/curse.tar.gz "Curse"), [report](files/curse-report.pdf
   "Report") (*Greek*)
+
+
+# Other Interests & Activities
+
+I used to be an Administrative member of the
+[Free and Open Source Software community](http://foss.ntua.gr) of the National
+and Technical University of Athens. In the past, I 've organised and attended
+various Community conferences and presentations in Greece, such as
+[FOSSCOM](http://fosscomm.gr), Eellak conference, etc. Nowadays, I strive to
+remain an active FOSS community member and regularly catch myself discussing and
+hacking with the *gang* (along with beers or
+[tsipouro](https://en.wikipedia.org/wiki/Tsipouro)!)  :-)
+
+Except for the academic and geeky stuff:
+
+* I enjoy playing soccer and beach volleyball.
+* I like swimming in the morning, before going to work.
+* I ocassionaly play pool and go hiking (mostly during the summer).
