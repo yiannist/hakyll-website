@@ -4,6 +4,24 @@ title: Papers & Talks
 
 Papers I 've worked on (alone or as joint work).
 
+# ErLLVM: An LLVM Backend for Erlang
+
+Authors: Konstantinos Sagonas, Chris Stavrakakis, Yiannis Tsiouris
+
+Erlang Workshop, Copenhagen - DK, September 2012 (*Subm.*)
+
+## Abstract
+
+This paper describes ErLLVM, a new backend for the HiPE compiler, the native
+code compiler of Erlang/OTP, that targets the LLVM compiler
+infrastructure. Besides presenting the overall architecture and integration of
+ErLLVM in Erlang/OTP, we describe the changes to LLVM that ErLLVM required and
+discuss technical challenges and decisions we took. Finally, we provide a
+detailed performance evaluation of ErLLVM compared to BEAM, the existing
+backends of the HiPE compiler, and Erjang.
+
+* * *
+
 # A Scalability Benchmark Suite for Erlang/OTP
 
 Authors: Stavros Aronis, Nikolaos Papaspyrou, Katerina Roukounaki, Konstantinos
@@ -31,24 +49,6 @@ points. We describe the scalability dimensions that the suite aims to measure
 and present its infrastructure and current set of benchmarks. We also report
 some limited set of performance results in order to show the capabilities of our
 suite.
-
-* * *
-
-# ErLLVM: An LLVM Backend for Erlang
-
-Authors: Konstantinos Sagonas, Chris Stavrakakis, Yiannis Tsiouris
-
-Erlang Workshop, Copenhagen - DK, September 2012 (*Subm.*)
-
-## Abstract
-
-This paper describes ErLLVM, a new backend for the HiPE compiler, the native
-code compiler of Erlang/OTP, that targets the LLVM compiler
-infrastructure. Besides presenting the overall architecture and integration of
-ErLLVM in Erlang/OTP, we describe the changes to LLVM that ErLLVM required and
-discuss technical challenges and decisions we took. Finally, we provide a
-detailed performance evaluation of ErLLVM compared to BEAM, the existing
-backends of the HiPE compiler, and Erjang.
 
 * * *
 
