@@ -24,12 +24,10 @@ main = hakyll $ do
     route idRoute
     compile copyFileCompiler
 
-  {-
-  -- Copy Javascript
+  -- Copy JavaScript
   match "js/*" $ do
-  route idRoute
-  compile copyFileCompiler
-  -}
+    route idRoute
+    compile copyFileCompiler
 
   -- Read templates
   match "templates/*" $ compile templateCompiler

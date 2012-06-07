@@ -15,3 +15,7 @@ It has been a while since I 've been thinking of creating my spot in the web,
 and here it is! I 'd like to thank [Jasper Van der Jeugt](http://jaspervdj.be
 "Jasper") for giving me the 'kick in the butt' by offering
 [Hakyll](http://jaspervdj.be/hakyll "Hakyll") to the world.
+
+<!-- ### Identi.ca mirror (Twitter) -->
+<!-- <div class="tweet"> </div> -->
+<!-- Follow me on [Identi.ca](http://identi.ca/yiannist)... -->
