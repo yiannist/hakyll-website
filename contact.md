@@ -15,4 +15,6 @@ channel on [GrIrcNet](http://www.irc.gr/) and the `#xmonad`, `#haskell` and
 
 Also, you can follow me on [Identi.ca](http://identi.ca/yiannist) (or if you
 insist on using non-free alternatives:
-[Twitter-mirror](http://twitter.com/#!/tsi0u_)).
+[Twitter-mirror](http://twitter.com/#!/tsi0u_)). I
+[![picture alt](images/dislike50.png "Dislike FB")](https://fsf.org/fb)
+Facebook, you won't find me there.
