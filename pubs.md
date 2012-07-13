@@ -6,9 +6,9 @@ Papers I 've worked on (alone or as joint work).
 
 # ErLLVM: An LLVM Backend for Erlang
 
-Authors: Konstantinos Sagonas, Chris Stavrakakis, Yiannis Tsiouris
+Authors: Konstantinos Sagonas, Chris Stavrakakis, and Yiannis Tsiouris
 
-Erlang Workshop, Copenhagen - DK, September 2012 (*Subm.*)
+Eleventh ACM SIGPLAN Erlang Workshop, Copenhagen - Denmark, September 2012
 
 ## Abstract
 
@@ -20,13 +20,16 @@ discuss technical challenges and decisions we took. Finally, we provide a
 detailed performance evaluation of ErLLVM compared to BEAM, the existing
 backends of the HiPE compiler, and Erjang.
 
+[ [PDF] ](files/erlang03-sagonas.pdf) [ Bib ]
+[ Slides ] [ [Website] ](http://erllvm.softlab.ntua.gr)
+
 
 # A Scalability Benchmark Suite for Erlang/OTP
 
 Authors: Stavros Aronis, Nikolaos Papaspyrou, Katerina Roukounaki, Konstantinos
-         Sagonas, Yiannis Tsiouris, Ioannis E. Venetis
+         Sagonas, Yiannis Tsiouris, and Ioannis E. Venetis
 
-Erlang Workshop, Copenhagen - DK, September 2012 (*Subm.*)
+Eleventh ACM SIGPLAN Erlang Workshop, Copenhagen - Denmark, September 2012
 
 ## Abstract
 
@@ -49,10 +52,13 @@ and present its infrastructure and current set of benchmarks. We also report
 some limited set of performance results in order to show the capabilities of our
 suite.
 
+[ [PDF] ](files/erlang01-aronis.pdf) [ Bib ]
+[ Slides ] [ [Website] ](http://www.softlab.ntua.gr/release/bencherl)
+
 
 # Design and implementation of a Low Level Virtual Machine back end for the High Performance Erlang native code compiler
 
-Authors: Christos Stavrakakis, Yiannis Tsiouris
+Authors: Christos Stavrakakis, and Yiannis Tsiouris
 
 **Diploma thesis**, Electrical and Computer Engineering Dept., National
   Technical University of Athens - GR, November 2011
