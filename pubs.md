@@ -20,8 +20,8 @@ discuss technical challenges and decisions we took. Finally, we provide a
 detailed performance evaluation of ErLLVM compared to BEAM, the existing
 backends of the HiPE compiler, and Erjang.
 
-[ [PDF] ](files/erlang03-sagonas.pdf) [ Bib ]
-[ Slides ] [ [Website] ](http://erllvm.softlab.ntua.gr)
+[ [PDF] ](files/erlang03-sagonas.pdf) [ [Bib] ](files/erlang03-sagonas.bib)
+[ [Slides] ](files/ErLLVM.pdf) [ [Website] ](http://erllvm.softlab.ntua.gr)
 
 
 # A Scalability Benchmark Suite for Erlang/OTP
