@@ -1,5 +1,4 @@
 {-# LANGUAGE OverloadedStrings #-}
-import Control.Arrow ((>>>))
 
 import Hakyll
 
@@ -33,9 +32,15 @@ main = hakyll $ do
   match "templates/*" $ compile templateCompiler
 
   -- Render some static pages
-  match (list ["index.md", "cv.md", "pubs.md", "contact.md", "links.md"
-              , "404.md"]) $ do
+  match (fromList pages) $ do              
     route $ setExtension "html"
-    compile $ pageCompiler
-      >>> applyTemplateCompiler "templates/default.html"
-      >>> relativizeUrlsCompiler
+    compile $ pandocCompiler
+      >>= loadAndApplyTemplate "templates/default.html" defaultContext
+      >>= relativizeUrls
+  where pages = [ "index.md"
+                , "cv.md"
+                , "pubs.md"
+                , "contact.md"
+                , "links.md"
+                , "404.md"
+                ]
