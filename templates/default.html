@@ -22,25 +22,6 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"> </script>
         <script type="text/javascript" src="js/jquery.tweet.js"> </script>
 
-        <!-- Piwik -->
-        <script type="text/javascript">
-            var pkBaseURL = (("https:" == document.location.protocol) ?
-                    "https://83.212.96.183/stats/public_html/" :
-                    "http://83.212.96.183/stats/public_html/");
-            document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-        </script>
-        <script type="text/javascript">
-            try {
-                var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
-                piwikTracker.trackPageView();
-                piwikTracker.enableLinkTracking();
-            } catch( err ) {}
-        </script>
-        <noscript><p>
-            <img src="http://83.212.96.183/stats/public_html/piwik.php?idsite=3" style="border:0" alt="" /></p>
-        </noscript>
-        <!-- End Piwik Tracking Code -->
-
         <script type="text/javascript">
           $$(function() {
             $$(".tweet").tweet({
