@@ -1,6 +1,3 @@
-NOTE: Be sure to change the below to match your details, when satisfied,
-sign the document with your old and new keys.
-
 Date: 2015-01-25
 
 For a number of reasons[0], i've recently set up a new OpenPGP key,
