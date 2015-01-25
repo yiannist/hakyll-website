@@ -110,6 +110,8 @@ hacking with the *gang* (along with beers or
 
 Except for the academic and geeky stuff:
 
-* I enjoy playing soccer and beach volleyball.
+* I enjoy playing futsal and beach volleyball.
 * I like swimming in the morning, before going to work.
+* I try to ride my motorcycle off-road (enduro or trail riding) as much as
+possible!
 * I ocassionaly play pool and go hiking (mostly during the summer).
