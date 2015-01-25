@@ -1,0 +1,79 @@
+NOTE: Be sure to change the below to match your details, when satisfied,
+sign the document with your old and new keys.
+
+Date: 2015-01-25
+
+For a number of reasons[0], i've recently set up a new OpenPGP key,
+and will be transitioning away from my old one.
+
+The old key will continue to be valid for some time, but i prefer all
+future correspondence to come to the new one.  I would also like this
+new key to be re-integrated into the web of trust.  This message is
+signed by both keys to certify the transition.
+
+the old key was:
+
+pub   1024D/0x5C06E89C8DB264BB 2012-06-06 [expires: 2015-06-21]
+      Key fingerprint = 3F3E 9274 C5B2 0421 0639  78D4 5C06 E89C 8DB2 64BB
+
+And the new key is:
+
+pub   4096R/0x2D2A7A23591DFFB1 2015-01-22 [expires: 2017-01-21]
+      Key fingerprint = E9AA E903 D3B0 03CB 2ACB  C939 2D2A 7A23 591D FFB1
+
+To fetch the full key from a public key server, you can simply do:
+
+  gpg --keyserver keys.riseup.net --recv-key 'E9AA E903 D3B0 03CB 2ACB  C939 2D2A 7A23 591D FFB1'
+
+If you already know my old key, you can now verify that the new key is
+signed by the old one:
+
+  gpg --check-sigs 'E9AA E903 D3B0 03CB 2ACB  C939 2D2A 7A23 591D FFB1'
+
+If you don't already know my old key, or you just want to be double
+extra paranoid, you can check the fingerprint against the one above:
+
+  gpg --fingerprint 'E9AA E903 D3B0 03CB 2ACB  C939 2D2A 7A23 591D FFB1'
+
+If you are satisfied that you've got the right key, and the UIDs match
+what you expect, I'd appreciate it if you would sign my key. You can
+do that by issuing the following command:
+
+** 
+NOTE: if you have previously signed my key but did a local-only
+signature (lsign), you will not want to issue the following, instead
+you will want to use --lsign-key, and not send the signatures to the
+keyserver
+**
+
+  gpg --sign-key 'E9AA E903 D3B0 03CB 2ACB  C939 2D2A 7A23 591D FFB1'
+
+I'd like to receive your signatures on my key. You can either send me
+an e-mail with the new signatures (if you have a functional MTA on
+your system):
+
+  gpg --export 'E9AA E903 D3B0 03CB 2ACB  C939 2D2A 7A23 591D FFB1' | gpg --encrypt -r 'E9AA E903 D3B0 03CB 2ACB  C939 2D2A 7A23 591D FFB1' --armor | mail -s 'OpenPGP Signatures' gtsiour@softlab.ntua.gr
+
+
+Additionally, I highly recommend that you implement a mechanism to keep your key
+material up-to-date so that you obtain the latest revocations, and other updates
+in a timely manner. You can do regular key updates by using parcimonie[1] to
+refresh your keyring. Parcimonie is a daemon that slowly refreshes your keyring
+from a keyserver over Tor. It uses a randomized sleep, and fresh tor circuits
+for each key. The purpose is to make it hard for an attacker to correlate the
+key updates with your keyring.
+
+
+I also highly recommend checking out the excellent Riseup GPG best
+practices doc, from which I stole most of the text for this transition
+message ;-)
+
+https://we.riseup.net/debian/openpgp-best-practices
+
+Please let me know if you have any questions, or problems, and sorry
+for the inconvenience.
+
+Yiannis Tsiouris
+
+0. https://www.debian-administration.org/users/dkg/weblog/48
+1. https://gaffer.ptitcanardnoir.org/intrigeri/code/parcimonie/

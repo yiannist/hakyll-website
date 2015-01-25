@@ -2,19 +2,21 @@
 title: Contact
 ---
 
-The prefered way of contacting me is to mail me at:
+The prefered way of contacting me is to e-mail me at:
 
    > gtsiour -(at)- softlab -(dot)- ntua -(dot)- gr
 
-If you need it, grab my [Public PGP Key](files/gtsiour.asc). (Note: my
-[old key](files/yiannis_t.asc) has been revoked!)
+If you need it, grab my public [PGP Key](files/gtsiour-0x5C06E89C8DB264BB.pub).
+I like encrypted e-mails! I have created a new, stronger
+[OpenPGP key](files/gtsiour-0x2D2A7A23591DFFB1.pub) (4096R) and will be
+transitioning away from my old key soon. You can find my signed
+([sig1](files/sig1.txt), [sig2](files/sig2.txt)) transition statement
+[here](files/transition_statement.txt). If you have signed my old key, I would
+appreciate signatures on my new key as well!
 
 You can try to catch me on IRC -- I lurk as `yiannis_t` in the `#foss.ntua`
-channel on [GrIrcNet](http://www.irc.gr/) and the `#xmonad`, `#haskell` and
-`#erlang` channels on [Freenode](http://freenode.net/).
+channel on [Freenode](https://www.freenode.net/) and occasionally in `#xmonad`,
+`#haskell`, `#erlang` or `#haskell-distributed`.
 
-Also, you can follow me on [Identi.ca](http://identi.ca/yiannist) (or if you
-insist on using non-free alternatives:
-[Twitter-mirror](http://twitter.com/#!/tsi0u_)). I
-[![picture alt](images/dislike50.png "Dislike FB")](https://fsf.org/fb)
-Facebook, you won't find me there.
+I [![picture alt](images/dislike50.png "Dislike FB")](https://fsf.org/fb)
+Facebook (and social networks in general!), you won't find me there.
