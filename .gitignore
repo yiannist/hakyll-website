@@ -4,6 +4,7 @@
 *.o
 *.hi
 hakyll
+site
 
 # Generated files
 _cache/
