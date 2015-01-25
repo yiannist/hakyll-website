@@ -4,25 +4,28 @@ title: Papers & Talks
 
 Papers I 've worked on (alone or as joint work).
 
-# ErLLVM: An LLVM Backend for Erlang
 
-Authors: Konstantinos Sagonas, Chris Stavrakakis, and Yiannis Tsiouris
+# Compilation to Quantum Circuits for a Language with Quantum Data and Control
 
-Eleventh ACM SIGPLAN Erlang Workshop, Copenhagen - Denmark, September 2012
+Authors: Yannis Rouselakis, Nikolaos S. Papaspyrou, Yiannis Tsiouris, and Eneia
+         N. Todoran
+
+Federated Conference on Computer Science and Information Systems (FedCSIS),
+Krakow - Poland, 8-11 Sept. 2013
 
 ## Abstract
 
-This paper describes ErLLVM, a new backend for the HiPE compiler, the native
-code compiler of Erlang/OTP, that targets the LLVM compiler
-infrastructure. Besides presenting the overall architecture and integration of
-ErLLVM in Erlang/OTP, we describe the changes to LLVM that ErLLVM required and
-discuss technical challenges and decisions we took. Finally, we provide a
-detailed performance evaluation of ErLLVM compared to BEAM, the existing
-backends of the HiPE compiler, and Erjang.
+In this paper we further investigate nQML, a functional quantum programming
+language that follows the ``quantum data and control” paradigm. We define a
+semantics for nQML, which translates programs to quantum circuits in the
+category FQC of finite quantum computations, following the approach of Altenkirch
+and Grattage’s QML. This semantics, which coincides with the denotational
+semantics for nQML over density matrices and unitary transformations, serves as a
+compiler from nQML programs to quantum circuits. We also provide an
+implementation of this compiler, written in Haskell, as well as an interpreter
+for quantum circuits.
 
-[ [PDF] ](files/erlang03-sagonas.pdf) [ [Bib] ](files/erlang03-sagonas.bib)
-[ [Slides] ](files/ErLLVM.pdf) [ [Website] ](http://erllvm.softlab.ntua.gr)
-
+[ [PDF] ](files/fedcsis-rouselakis.pdf) [ [Slides] ](files/rouselakis-2013-cqclqdc-slides.pdf) [ Bib ] [ Website ]
 
 # A Scalability Benchmark Suite for Erlang/OTP
 
@@ -52,8 +55,28 @@ and present its infrastructure and current set of benchmarks. We also report
 some limited set of performance results in order to show the capabilities of our
 suite.
 
-[ [PDF] ](files/erlang01-aronis.pdf) [ Bib ]
-[ Slides ] [ [Website] ](http://www.softlab.ntua.gr/release/bencherl)
+[ [PDF] ](files/erlang01-aronis.pdf) [ [Bib] ](files/erlang01-aronis.bib)
+[ [Slides] ](files/bencherl-presentation.pdf) [ [Website] ](http://www.softlab.ntua.gr/release/bencherl)
+
+
+# ErLLVM: An LLVM Backend for Erlang
+
+Authors: Konstantinos Sagonas, Chris Stavrakakis, and Yiannis Tsiouris
+
+Eleventh ACM SIGPLAN Erlang Workshop, Copenhagen - Denmark, September 2012
+
+## Abstract
+
+This paper describes ErLLVM, a new backend for the HiPE compiler, the native
+code compiler of Erlang/OTP, that targets the LLVM compiler
+infrastructure. Besides presenting the overall architecture and integration of
+ErLLVM in Erlang/OTP, we describe the changes to LLVM that ErLLVM required and
+discuss technical challenges and decisions we took. Finally, we provide a
+detailed performance evaluation of ErLLVM compared to BEAM, the existing
+backends of the HiPE compiler, and Erjang.
+
+[ [PDF] ](files/erlang03-sagonas.pdf) [ [Bib] ](files/erlang03-sagonas.bib)
+[ [Slides] ](files/ErLLVM.pdf) [ [Website] ](http://erllvm.softlab.ntua.gr)
 
 
 # Design and implementation of a Low Level Virtual Machine back end for the High Performance Erlang native code compiler
