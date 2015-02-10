@@ -18,5 +18,8 @@ You can try to catch me on IRC -- I lurk as `yiannis_t` in the `#foss.ntua`
 channel on [Freenode](https://www.freenode.net/) and occasionally in `#xmonad`,
 `#haskell`, `#erlang` or `#haskell-distributed`.
 
+I don't use [Skype](https://stallman.org/skype.html) but I do use Jabber! My
+XMPP id is: yiannist@jabber.org.
+
 I [![picture alt](images/dislike50.png "Dislike FB")](https://fsf.org/fb)
 Facebook (and social networks in general!), you won't find me there.
