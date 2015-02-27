@@ -114,4 +114,4 @@ Except for the academic and geeky stuff:
 * I like swimming in the morning, before going to work.
 * I try to ride my motorcycle off-road (enduro or trail riding) as much as
 possible!
-* I ocassionaly play pool and go hiking (mostly during the summer).
+* I ocassionaly play pool or go hiking (mostly during the summer).
