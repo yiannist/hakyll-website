@@ -15,11 +15,11 @@ transitioning away from my old key soon. You can find my signed
 appreciate signatures on my new key as well!
 
 You can try to catch me on IRC -- I lurk as `yiannis_t` in the `#foss.ntua`
-channel on [Freenode](https://www.freenode.net/) and occasionally in `#xmonad`,
-`#haskell`, `#erlang` or `#haskell-distributed`.
+channel on [Freenode](https://www.freenode.net/) and occasionally in `#ganeti`,
+`#synnefo`, `#xmonad`, `#haskell` or `#erlang`.
 
-I don't use [Skype](https://stallman.org/skype.html) but I do use Jabber! My
-XMPP id is: yiannist@jabber.org.
+I don't use [Skype](https://stallman.org/skype.html) but I do use Jabber!
+Contact me through email if you need my Jabber ID.
 
 I [![picture alt](images/dislike50.png "Dislike FB")](https://fsf.org/fb)
 Facebook (and social networks in general!), you won't find me there.

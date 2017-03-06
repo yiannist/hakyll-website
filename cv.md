@@ -15,16 +15,16 @@ precisely:
 * concurrent and parallel programming
 * program analysis, type systems, security
 
-You can grab a PDF version of this CV from [here](files/Yiannis-Tsiouris-CV.pdf).
+You can grab a PDF version of this CV from [here](files/Yiannis-Tsiouris-CV-en.pdf).
 
 # Education
 
 * National Technical University of Athens: Ph.D. student in School of Electrical
-  and Computer Engineering.(*November 2011 - present*)
+  and Computer Engineering.(*Nov. 2011 -- present*)
 * National Technical University of Athens: Diploma of Electrical and Computer
-  Engineering, specialization in Computer Science (GPA: 8.78/10.00). (*September
-  2006 - October 2011*)
-* Secondary School: 4th Lyceum of Larissa (GPA: 19.4/20). (*September 2003 -
+  Engineering, specialization in Computer Science (GPA: 8.78/10.00). (*Sep.
+  2006 -- Oct. 2011*)
+* Secondary School: 4th Lyceum of Larissa (GPA: 19.4/20). (*Sep. 2003 --
   June 2006*)
 
 
@@ -34,27 +34,40 @@ For an updated list of papers, talks and other publications please visit the
 relevant [page](pubs.html).
 
 
-# Projects
+# Work experience
 
-* **[ErLLVM](http://erllvm.softlab.ntua.gr)**: A project aiming at providing
-    multiple back ends for High Performance Erlang
+* **[Greek Research and Academic Network (GRNET)](https://www.grnet.gr/)**
+  (Feb. 2015 -- present)
+
+    * **[Panoramix: Privacy and Accountability in Networks via Optimized
+        Randomized Mix-nets](https://panoramix-project.eu/)**
+    * **[TREDISEC: Trust-aware, REliable and Distributed Information SEcurity in
+        the Cloud](https://www.tredisec.eu/)**
+    * **[Synnefo](https://www.synnefo.org)** IaaS cloud software engineer
+
+* **[RELEASE: A High-level Paradigm for Reliable Large-scale Server
+    Software](http://www.release-project.eu/)** (Nov. 2011 -- Feb. 2015)
+
+    This an EU FP7 STREP (287510) project that aims to scale the radical
+    concurrency-oriented programming paradigm to build reliable general-purpose
+    software, such as server-based systems, on massively parallel machines.
+    Project partners include Heriot-Watt, Ericsson, Uppsala Universitet, Kent
+    University, Erlang Solutions Ltd., National Technical University of Athens,
+    and EDF (France).
+
+* **[ErLLVM](http://erllvm.softlab.ntua.gr)** (2011 -- 2012)
+
+    A project aiming at providing multiple back ends for High Performance Erlang
     ([HiPE](http://www.it.uu.se/research/group/hipe/)), the native code compiler
     of the Erlang/OTP system, with the use of the [LLVM](http://llvm.org/)
     infrastructure.
 
-* **[RELEASE: A High-level Paradigm for Reliable Large-scale Server
-    Software](http://www.release-project.eu/)** is an EU FP7 STREP (287510) that
-    aims to scale the radical concurrency-oriented programming paradigm to build
-    reliable general-purpose software, such as server-based systems, on
-    massively parallel machines (100 000 cores). Project partners include
-    Heriot-Watt, Ericsson, Uppsala Universitet, Kent University, Erlang
-    Solutions Ltd., National Technical University of Athens, and EDF (France).
 
-For more recent projects, you can take a look at my [Github
-page](http://www.github.com/yiannist/ "Github").
+### Projects
 
-
-### Undegraduate Projects
+Various, mostly minor, contributions to open source projects
+[Erlang/OTP](http://www.erlang.org/), [Ganeti](http://www.ganeti.org/),
+[LLVM](http://llvm.org/), etc.).
 
 During my studies in School of Electrical and Computer Engineering at NTUA I
 have implemented many projects (on my own or in collaboration with some
@@ -110,8 +123,8 @@ hacking with the *gang* (along with beers or
 
 Except for the academic and geeky stuff:
 
-* I enjoy playing futsal and beach volleyball.
+* I enjoy playing futsal and footvolley.
 * I like swimming in the morning, before going to work.
 * I try to ride my motorcycle off-road (enduro or trail riding) as much as
 possible!
-* I ocassionaly play pool or go hiking (mostly during the summer).
+* I ocassionaly play pool or go cycling.
